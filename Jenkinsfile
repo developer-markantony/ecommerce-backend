@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent master
 
     environment {
         VIRTUAL_ENV = 'venv'  // Virtual environment directory
