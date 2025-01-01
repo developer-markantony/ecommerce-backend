@@ -4,7 +4,7 @@ pipeline {
     environment {
         VIRTUAL_ENV = 'venv'  // Virtual environment directory
         REMOTE_SERVER = 'ubuntu@ip-172-31-17-223'
-        REMOTE_PATH = '/home/ubuntu'
+        REMOTE_PATH = '/var/lib/jenkins/workspace/p-e-commerce1'
     }
 
     stages {
